@@ -1,0 +1,105 @@
+{
+  "rules": {
+
+    "$uid" : {
+    ".read": "auth !== null",
+    ".write": "auth.uid === $uid"
+    },
+
+    "Riders" : {
+      "$Rider" : {
+        ".validate" : "newData.hasChildren(['Email', 'First Name', 'Last Name',
+                      'Screen Name', 'Color Scheme', 'Country', 'Lookup Credits',
+                      'IMEI', 'Points', 'Category', 'Status'])
+                      && newData.child('Email').isString && newData.child('First Name').isString
+                      && newData.child('Last Name').isString && newData.child('Screen Name').isString
+                      && newData.child('Color Scheme').isString && newData.child('Country').isString
+                      && newData.child('Lookup Credits').isNumber && newData.child('IMEI').isString
+                      && newData.child('Points').isNumber && newData.child('Category').isString
+                      && newData.child('Status').isString"
+      }
+    },
+
+    "Vehicles" : {
+      "$Vehicle" : {
+        ".validate" : "newData.hasChildren(['License Plate Number', 'Service Provider', 'Driver Names',
+                      'Car Model'])
+                      && newData.child('License Plate Number').isString && newData.child('Service Provider').isString
+                      && newData.child('Driver Names')?.isString && newData.child('Car Model').isString
+      }
+    },
+
+    "Reviews" : {
+      "$Review" : {
+        ".validate" : "newData.hasChildren(['Rider ID', 'Vehicle ID', 'Lookup ID',
+                      'User Star Rating', 'Janta Star Rating', 'Service Provider', 'Review Type',
+                      'Issue Details', 'Reason Codes', 'Review Comment', 'Review Timestamp',
+                      'Status'])
+                      && newData.child('Rider ID').isNumber && newData.child('Vehicle ID').isNumber
+                      && newData.child('Lookup ID').isNumber && newData.child('User Star Rating')?.isString
+                      && newData.child('Janta Star Rating')?.isString && newData.child('Service Provider').isString
+                      && newData.child('Review Type').isNumber && newData.child('Issue Details').isString
+                      && newData.child('Reason Codes').isNumber && newData.child('Review Comment').isString
+                      && newData.child('Review Timestamp')?.isNumber && newData.child('Status').isString"
+      }
+    },
+
+    "Lookups" : {
+      "$Lookup" : {
+        ".validate" : "newData.hasChildren(['Rider ID', 'Vehicle ID', 'Lookup Type',
+                      'Lookup Timestamp', 'Image ID', 'Image Status', 'Frequency'])
+                      && newData.child('Rider ID').isNumber && newData.child('Vehicle ID').isNumber
+                      && newData.child('Lookup Type').isString && newData.child('Lookup Timestamp')?.isNumber
+                      && newData.child('Image ID').isNumber && newData.child('Image Status').isString
+                      && newData.child('Frequency').isNumber"
+      }
+    },
+
+    "Images" : {
+      "$Image" : {
+        ".validate" : "newData.hasChildren(['Image Path', 'Image Status', 'Service Provider',
+                      'Ratings', 'Driver', 'Car Model', 'Country'])
+                      && newData.child('Image Path').isString && newData.child('Image Status').isString
+                      && newData.child('Service Provider').isString && newData.child('Ratings')?.isString
+                      && newData.child('Driver').isString && newData.child('Car Model').isString
+                      && newData.child('Country').isString"
+      }
+    },
+
+    "Global Settings" : {
+      ".write" : false
+    },
+
+    "Review Type" : {
+      ".write" : false
+    },
+
+    "Faced Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Driver Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Safety Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Vehicle Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Other Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Cancelled Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "App Issues Dictionary" : {
+      ".write" : false
+    }
+  }
+}

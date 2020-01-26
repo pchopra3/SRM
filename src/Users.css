@@ -1,0 +1,98 @@
+#NewUserID{
+  margin-left: 600px;
+  background-color: black;
+  font-size: 13px;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+#newUserTableID{
+  display: none;
+}
+
+#usersListDiv{
+  display: block;
+}
+
+#editUserTableID1{
+  display: none;
+}
+
+#reports{
+  margin-top: 1em;
+}
+
+#p1, #o1, #u1{
+  margin-top: 10px;
+}
+
+#editUserTableID2{
+  display: none;
+}
+
+#usernameBox{
+  border: 3px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+#userEmailBox{
+  background-color: white;
+}
+
+#newUserTableID2{
+  display: none;
+}
+
+#optionsLink{
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: #DFDFDF;
+  margin-left: 6px;
+}
+
+#usersLink{
+  margin-top: 5px;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+#projectsLink{
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: #DFDFDF;
+  margin-left: 7px;
+}
+
+#manageDiv{
+  margin-left: -15.5px;
+  margin-right: -15.4px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#composeLink{
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: #DFDFDF;
+  margin-left: 7px;
+  color: black;
+}
+
+#c{
+  size: 40px;
+  color: black;
+  margin-left: 33px;
+}
+
+#composeButton1{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 20px;
+  height: 40px;
+}

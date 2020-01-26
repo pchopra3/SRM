@@ -1,0 +1,385 @@
+body {
+       margin: 30px;
+        }
+        /* .my-container {
+            border: 1px solid white;
+        }*/
+        .my-row1 {
+            border: 3px solid white;
+            height: 70px;
+        }
+
+        .my-col1a {
+            border: 3px solid white;
+        }
+
+        .my-col1b{
+          border: 3px solid white;
+        }
+
+        .my-row2{
+            border-left: 3px solid white;
+            border-right: 3px solid white;
+            border-bottom: 3px solid white;
+            border-top: 3px solid white;
+            height: 410px;
+        }
+
+        .my-col2a{
+            border: 3px solid white;
+
+        }
+
+        .my-col2b{
+          border: 3px solid white;
+
+        }
+
+        #avatar{
+          width: 26px;
+          height: 26px;
+          float: left;
+        }
+
+        #name{
+          width: 60px;
+          height: 35px;
+          float:left;
+          margin: 14px;
+
+        }
+
+        #composeButton{
+          background-color: black;
+          color: white;
+          border-radius: 20px;
+          width: 100px;
+        }
+
+        #composeButtonDiv{
+
+        }
+
+        .flex-container {
+          display: flex;
+        }
+
+        #reports{
+          background-color: white;
+          margin-left: -15.5px;
+          margin-right: -15.4px;
+        }
+
+        #DateRangeDropdown{
+          float:left;
+          width: 190px;
+        }
+
+        #ProjectNameDropdown{
+           float: left;
+           width: 190px;
+        }
+
+        #EmployeeNameDropdown{
+          float:left;
+          width: 190px;
+        }
+
+        #generateReportButton{
+          float:right;
+          background-color: black;
+          color: white;
+          float:left;
+          width: 190px;
+        }
+
+        #wrapper {
+          margin-top:12px;
+          margin-bottom: 12px;
+          width:760px;
+          padding-top: 3px;
+          padding-bottom: 3px;
+
+        }
+
+        #imageAndNameID{
+
+        }
+
+        #avatar{
+
+        }
+
+        #bgTextID{
+
+          margin-top: 175px;
+          margin-left:222px;
+        }
+
+        #tableID{
+          display: none;
+        }
+
+        #SRBox{
+          background: white;
+          margin-top:60px;
+          margin-bottom: 30px;
+          height: 350px;
+        }
+
+        #manageDiv{
+          display: none;
+          margin-left: -15.5px;
+          margin-right: -15.4px;
+          margin-top: 10px;
+        }
+
+        #Projects{
+          display: none;
+          margin-left: -15.5px;
+          margin-right: -15.4px;
+
+          font-size: 13px;
+        }
+
+        #projectsTableID{
+          display: none;
+        }
+
+        #projectsTable{
+          background: white;
+          margin-top:60px;
+          margin-bottom: 30px;
+          height: 350px;
+        }
+
+        #projectsList{
+          display: block;
+        }
+
+        #projectNameBox{
+          margin-bottom: 20px;
+          margin-top: 20px;
+          width: auto;
+          border: 3px solid white;
+
+        }
+
+        #bigDiv{
+
+          display: block;
+        }
+
+        #projectTypeBox{
+          background-color: white;
+        }
+
+        #projectMembersBox{
+          background-color: white;
+        }
+
+        #editPencil{
+
+        }
+
+        #projectsTableID1{
+          display: none;
+        }
+
+        #logoutButton{
+          background-color: white;
+          color: black;
+          border-radius: 20px;
+          width: 100px;
+          margin-left: 10px;
+        }
+
+        #NewProjectID{
+          margin-left: 600px;
+          background-color: black;
+          font-size: 13px;
+          color: white;
+          border-radius: 20px;
+          width: 100px;
+          margin-top: 10px;
+        }
+
+         #projectListDiv{
+             display: block;
+         }
+
+         #statusReportTable1{
+           display: none;
+         }
+
+         #totalHours{
+           display: block;
+         }
+
+         #totalHoursInDisplay{
+           display: none;
+         }
+
+         #currentUserNameDivInCol2b{
+           display: none;
+         }
+
+         #fromDateDropDown{
+           width: 130px;
+         }
+
+         #toDateDropDown{
+           width: 130px;
+         }
+
+         #projectnameDropdown{
+           width: 130px;
+           float:left;
+         }
+
+         #employeeDropdown{
+           width: 130px;
+           float: left;
+         }
+
+         #wrapperForInformation{
+           direction: 'row';
+           display: flex;
+           align-items: center;
+           justify-content: center;
+         }
+
+         #fromDatesDropdown{
+           width: 100px;
+           float: left;
+         }
+
+         #toDatesDropdown{
+           width: 100px;
+           float: left;
+         }
+
+         #TotalHoursInDisplayDiv{
+           display: none;
+         }
+
+         #NewProjectID{
+           display: none;
+         }
+
+         #generatedReportTable{
+           display: none;
+         }
+
+         #tableID{
+           display: none;
+         }
+
+         #addSessionBtn{
+           margin-left: 20px;
+         }
+
+         #yesterdayBtn{
+           margin-left: 20px;
+           margin-bottom: 10px;
+         }
+
+         #WorkTypeSelect{
+           width: 120px;
+         }
+
+         #ProjectNameSelect{
+           width: 120px;
+         }
+
+         #commentsInput{
+           width: 120px;
+         }
+
+         #fromTimeInput{
+           width: 120px;
+         }
+
+         #toTimeInput{
+           width: 120px;
+         }
+
+         #typeLabel{
+           float: left;
+           margin-left: 45px;
+         }
+
+         #projectNameLabel{
+           float: left;
+           margin-left: 54px;
+         }
+
+         #commentsLabel{
+           float: left;
+           margin-left: 32px;
+         }
+
+         #fromTimeLabel{
+           float:left;
+           margin-left: 35px;
+         }
+
+         #toTimeLabel{
+           float:left;
+           margin-left: 32px;
+         }
+
+         #reportsLabelDiv{
+           margin-top: 10px;
+         }
+
+         #o{
+           color: black;
+           margin-left: 35px;
+         }
+
+         #u{
+           color: black;
+           margin-left: 40px;
+         }
+
+        #optionsLink{
+          margin-top: 10px;
+          font-size: 13px;
+          background-color: #DFDFDF;
+          margin-left: 6px;
+        }
+
+        #usersLink{
+          margin-top: 5px;
+          font-size: 13px;
+          margin-left: 5px;
+        }
+
+        #p{
+          color: black;
+          margin-left: 33px;
+        }
+
+        #projectsLink{
+          margin-top: 10px;
+          font-size: 13px;
+          background-color: #DFDFDF;
+          margin-left: 7px;
+        }
+
+        #newProjectTable{
+          display: none;
+        }
+
+        #projectsTableID2{
+          display: none;
+        }
+
+        #todayBtn{
+          margin-bottom: 10px;
+        }
+
+        #addSessionBtn{
+          margin-bottom: 10px;
+        }

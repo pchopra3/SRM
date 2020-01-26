@@ -1,0 +1,79 @@
+{
+  "rules": {
+
+    "$uid" : {
+    ".read": "auth !== null",
+    ".write": "auth.uid === $uid"
+    },
+
+    "StatusReport" : {
+      "$StatusReportID" : {
+        ".validate" : "newData.hasChildren(['UserID', 'Type', 'Project Name',
+                      'Sessions', 'Comments', 'Overtime', 'Date'])
+                      && newData.child('UserID').isString
+                      && newData.child('Type').isString && newData.child('Project Name').isString
+                      && newData.child('Sessions').isString && newData.child('Comments').isString
+                      && newData.child('Overtime').isBoolean && newData.child('Date').isString”
+      }
+    },
+
+    "Users" : {
+      "$UserID" : {
+        ".validate" : "newData.hasChildren(['Username', 'Email, ‘Address', 'Password',
+                      'Name', 'Role'])
+                      && newData.child('Username').isString && newData.child('Email address').isString
+                      && newData.child('Password').isString && newData.child('Name').isString && newData.child('Role').isEnum
+      }
+    },
+
+    "Projects" : {
+      "$ProjectID" : {
+        ".validate" : "newData.hasChildren(['Project Name', 'Project Type', 'Project Members'])
+                      && newData.child('Project Name').isString && newData.child('Project Type').isEnum
+                      && newData.child('Project Members').isString
+      }
+    },
+
+    "Options" : {
+     ".validate" : "newData.hasChildren(['User ID', 'Email Type'])
+                      && newData.child('User ID').isString && newData.child('Email Type').isEnum
+
+    },
+
+    "Global Settings" : {
+      ".write" : false
+    },
+
+    "Review Type" : {
+      ".write" : false
+    },
+
+    "Faced Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Driver Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Safety Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Vehicle Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Other Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "Cancelled Issues Dictionary" : {
+      ".write" : false
+    },
+
+    "App Issues Dictionary" : {
+      ".write" : false
+    }
+  }
+}

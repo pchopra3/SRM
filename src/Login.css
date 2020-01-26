@@ -1,0 +1,61 @@
+#loginText{
+  font-size:2.8em;
+  background: white;
+}
+
+#page{
+  background: white;
+  margin-top:60px;
+  margin-bottom: 30px;
+  height: 350px;
+  padding: 10px 110px 10px 110px;
+}
+
+*{
+  background-color: #DFDFDF;
+}
+
+
+#b{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+}
+
+#l{
+  text-decoration: none;
+  color: black;
+}
+
+#organization{
+  background-color: white;
+}
+
+#e{
+  background-color: white;
+}
+
+#em{
+  background-color: white;
+}
+
+#password1{
+  background-color: white;
+}
+
+#pa{
+  background-color: white;
+}
+
+#bn{
+  background-color: white;
+}
+
+#li{
+  background-color: white;
+}
+
+#l{
+  background-color: white;
+}

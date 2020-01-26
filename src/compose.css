@@ -1,0 +1,13 @@
+
+#manageDiv5{
+  background-color: "#DFDFDF";
+}
+#statusReportTable1{
+  border-collapse: collapse;
+}
+#statusReportTable1 td,  #statusReportTable1 th{
+  border:1px solid black;
+}
+#closeComposedTableButton{
+  display: none;
+}

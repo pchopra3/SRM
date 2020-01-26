@@ -1,0 +1,59 @@
+#reports2{
+  margin-top: 10px;
+}
+
+#manageDiv2{
+  margin-top: 10px;
+  background-color: white;
+  margin-left: -15.5px;
+  margin-right: -15.4px;
+}
+
+#description{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#optionsLink{
+          margin-top: 10px;
+          font-size: 13px;
+          background-color: #DFDFDF;
+          margin-left: 6px;
+}
+
+#usersLink{
+          margin-top: 5px;
+          font-size: 13px;
+          margin-left: 5px;
+}
+
+#projectsLink{
+          margin-top: 10px;
+          font-size: 13px;
+          background-color: #DFDFDF;
+          margin-left: 7px;
+}
+
+#composeButton{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 14px;
+  height: 40px;
+}
+
+#logoutButton{
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+#p{
+  background-color: #DFDFDF;
+}
+
+#o{
+  background-color: #DFDFDF;
+}
