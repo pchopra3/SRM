@@ -1,3 +1,6 @@
+Status Report Management Tool to help users keep tab on their daily activities in their jobs.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
